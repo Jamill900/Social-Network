@@ -1,0 +1,24 @@
+#profimg { margin: 0 10px }
+.clearfix { overflow: auto }
+header nav { height: 70px!important }
+.col.s12 > .btn { width: 100% }
+aside .material-icons { margin: 0 10px }
+.collection { border: none;}
+.collection a.collection-item {
+	display: flex;
+	color: inherit;
+	border: none;
+}
+.collection a.collection-item:not(.active):hover{background-color:#e3f2fd}
+.collection a.collection-item:not(.active):active{background-color:#e3f2fd}
+span.badge { min-width: 1rem}
+aside span.badge.new:after{content:""}
+#newscard {width: 100%;}
+#cardtitle { background: rgba(0, 0, 0, 0.5); width: 100%;}
+#profimg{padding: 20px; margin-top: 10px;}
+#editb { width: 100%;}
+#friendbook{padding: 0 20px 20px 20px;}
+#profstat {padding: 10px;}
+#likes i{margin-right: 10px;}
+#messages {margin-top: 7px;}
+#friendslist li>div:hover {background: #e3f2fd;}

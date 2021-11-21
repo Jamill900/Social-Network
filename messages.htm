@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>SN</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header>
+            <nav class="light-blue darken-4">
+                <div class="container">
+                    <a href="index.htm" class="brand-logo left">SN</a>
+                    <div id="profile" class="right">
+                        <a href="sass.html" class="valign-wrapper">
+                            <img src="img/av_64.png" alt="Profile pic"> 
+                            Luella Hubbard
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="row">
+                    <aside class="col s12 m4 l3">
+                        <div class="collection blue-text darken-4-text">
+                            <a href="profile.htm" class="collection-item valign-wrapper">
+                                <i class="material-icons">assignment_ind</i>
+                                My Profile
+                            </a>
+                            <a href="news.htm" class="collection-item valign-wrapper">
+                                <i class="material-icons">chrome_reader_mode</i>
+                                News
+                            </a>
+                            <a href="messages.htm" class="collection-item valign-wrapper active blue darken-1">
+                                <i class="material-icons">markunread</i>
+                                Messages <span class="new badge blue darken-2">4</span>
+                            </a>
+                            <a href="friends.htm" class="collection-item valign-wrapper">
+                                <i class="material-icons">face</i>
+                                Friends
+                            </a>
+                            <a href="event.htm" class="collection-item valign-wrapper">
+                                <i class="material-icons">event_available</i>
+                                Events
+                            </a>
+                            <a href="media.htm" class="collection-item valign-wrapper">
+                                <i class="material-icons">insert_photo</i>
+                                Media
+                            </a>
+                        </div>
+                    </aside>
+                    <div class="col s12 m8 l9">
+                        <div class="row">
+                            <div class="col s12 m12 l5" id="friendslist">
+                                <ul class="collapsible">
+                                    <li>
+                                        <div class="collapsible-header valign-wrapper">  
+                                            <div class="col s3 center-align"><img src="img/avatar_1.png" alt=""></div>
+                                            <div class="col s9">
+                                                <h6><b>Pranav Talley</b>
+                                                <br /><p>Praesent odio felis, dignissim in pellentesque</p></h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="collapsible-header valign-wrapper">  
+                                            <div class="col s3 center-align"><img src="img/avatar_2.png" alt=""></div>
+                                            <div class="col s9">
+                                                <h6><b>Serena Perkins</b>
+                                                <br /><p class="blue-text darken-4-text"><b>Mauris in aliquet purus, sed interdum sapien.</b></p></h6>
+                                            </div>
+                                            <span class="new badge blue darken-2" data-badge-caption="">3</span>
+                                        </div>
+                                    </li><li>
+                                        <div class="collapsible-header valign-wrapper">  
+                                            <div class="col s3 center-align"><img src="img/avatar_3.png" alt=""></div>
+                                            <div class="col s9">
+                                                <h6><b>Lyndsey Thomson</b>
+                                                <br /><p>Fusce fermentum justo a purus tempor ornare.</p></h6>
+                                            </div>
+                                        </div>
+                                    </li><li>
+                                        <div class="collapsible-header valign-wrapper">  
+                                            <div class="col s3 center-align"><img src="img/avatar_4.png" alt=""></div>
+                                            <div class="col s9">
+                                                <h6><b>Nell Choi</b>
+                                                <br /><p class="blue-text darken-4-text"><b>Nulla convallis nibh sed dignissim imperdiet.</b></p></h6>
+                                            </div>
+                                            <span class="new badge blue darken-2" data-badge-caption="">1</span>
+                                        </div>
+                                    </li><li>
+                                        <div class="collapsible-header valign-wrapper">  
+                                            <div class="col s3 center-align"><img src="img/avatar_1.png" alt=""></div>
+                                            <div class="col s9">
+                                                <h6><b>Nate Oakley</b>
+                                                <br /><p>Mauris nec urna iaculis, molestie lorem a, venenatis.</p></h6>
+                                            </div>
+                                        </div>
+                                    </li><li>
+                                        <div class="collapsible-header valign-wrapper">  
+                                            <div class="col s3 center-align"><img src="img/avatar_2.png" alt=""></div>
+                                            <div class="col s9">
+                                                <h6><b>Amy-Louise Mcclure</b>
+                                                <br /><p>Donec vel viverra ex, et pellentesque erat.</p></h6>
+                                            </div>
+                                        </div>
+                                    </li><li>
+                                        <div class="collapsible-header valign-wrapper">  
+                                            <div class="col s3 center-align"><img src="img/avatar_3.png" alt=""></div>
+                                            <div class="col s9">
+                                                <h6><b>Raife John</b>
+                                                <br /><p>Nunc ut fermentum nisl.</p></h6>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col s12 m12 l7 z-depth-2"  id="messages">
+                                    <div class="col s12 valign-wrapper">
+                                        <div class="col s3">
+                                            <img src="img/avatar_1.png" alt="">
+                                        </div>
+                                        <div class="col s9">
+                                            <h6><b>Pranav Talley</b><span class="grey-text lighten-3-text"> 12:45:34</span>
+                                            <br /><p>Praesent odio felis, dignissim in pellentesque eu, vehicula vitae lectus.</p></h6>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 valign-wrapper">
+                                        <div class="col s9">
+                                            <h6><b>Luella Hubbard</b><span class="grey-text lighten-3-text"> 12:45:34</span>
+                                            <br /><p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilie Curae.</p></h6>
+                                        </div>
+                                        <div class="col s3">
+                                            <img src="img/av_64.png" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col s12 valign-wrapper">
+                                        <div class="col s3">
+                                            <img src="img/avatar_1.png" alt="">
+                                        </div>
+                                        <div class="col s9">
+                                            <h6><b>Pranav Talley</b><span class="grey-text lighten-3-text"> 12:45:34</span>
+                                            <br /><p>Ut tincidunt mauris ut ipsum feugiat, eget luctus ante tempor.</p></h6>
+                                        </div>
+                                    </div>
+                                    <div class="col s12 valign-wrapper">
+                                        <div class="col s9">
+                                            <h6><b>Luella Hubbard</b><span class="grey-text lighten-3-text"> 12:45:34</span>
+                                            <br /><p>Suspendisse potenti. Integer mi tellus, iaculis at luctus non, hendrerit quis mauris.</p></h6>
+                                        </div>
+                                        <div class="col s3">
+                                            <img src="img/av_64.png" alt="">
+                                        </div>
+                                    </div>
+                                    <form class="col s12">
+                                        <div class="row valign-wrapper">
+                                          <div class="input-field col s10">
+                                                <input id="input_text" type="text" data-length="10">                                    
+                                                <label for="input_text">Message</label>                                        
+                                          </div>
+                                          <div class="col s2">
+                                                <a class="btn-floating waves-effect waves-light right light-blue darken-4"><i class="material-icons">send</i></a>
+                                          </div>
+                                        </div>                                    
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer></footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>
